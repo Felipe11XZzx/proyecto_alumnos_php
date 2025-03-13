@@ -52,7 +52,12 @@ Este proyecto es una aplicación web desarrollada con Laravel que permite gestio
    php artisan migrate
    ```
 
-6. Inicia el servidor:
+6. Inicia el contenedor con  la BD :
+   ```bash
+   docker compose up -d
+   ```
+
+7. Inicia el servidor:
    ```bash
    php artisan serve
    npm run dev
